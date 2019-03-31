@@ -1,0 +1,19 @@
+.card-header {
+    background: linear-gradient(to right, #766dff 0%, #86e8ff 48%, #766dff 100%);
+    color: rgb(255, 255, 255);
+}
+
+.mtop-30 {
+    margin-top: 30px;
+}
+
+.mbot-30 {
+    margin-bottom: 30px;
+}
+
+html,
+body {
+
+    overflow-x: hidden;
+
+}

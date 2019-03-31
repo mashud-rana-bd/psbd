@@ -1,0 +1,20 @@
+[27-Feb-2019 20:41:44 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home4/psbd/photodesignexpert.com/psbd/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/psbd/photodesignexpert.com/psbd/routes/console.php on line 16
+[21-Mar-2019 00:24:11 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home4/psbd/photodesignexpert.com/psbd/routes/web.php:15
+Stack trace:
+#0 {main}
+  thrown in /home4/psbd/photodesignexpert.com/psbd/routes/web.php on line 15
+[21-Mar-2019 00:24:12 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Broadcast' not found in /home4/psbd/photodesignexpert.com/psbd/routes/channels.php:14
+Stack trace:
+#0 {main}
+  thrown in /home4/psbd/photodesignexpert.com/psbd/routes/channels.php on line 14
+[21-Mar-2019 00:24:40 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Artisan' not found in /home4/psbd/photodesignexpert.com/psbd/routes/console.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/psbd/photodesignexpert.com/psbd/routes/console.php on line 16
+[21-Mar-2019 00:24:54 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Route' not found in /home4/psbd/photodesignexpert.com/psbd/routes/api.php:16
+Stack trace:
+#0 {main}
+  thrown in /home4/psbd/photodesignexpert.com/psbd/routes/api.php on line 16

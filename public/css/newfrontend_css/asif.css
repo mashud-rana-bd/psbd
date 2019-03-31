@@ -1,0 +1,83 @@
+div.modified_button > * {
+    margin: 1rem;
+    font-size: 2rem;
+    border-radius: 1.7rem;
+}
+div.modified_button > :last-child {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.home-slider .slider-item .offer-card {
+    position: absolute;
+    right: 10%;
+    top: 270px;
+    width: 162px;
+    height: 162px;
+    border-radius: 50%;
+    background: #f51167;
+    text-align: center;
+    padding-top: 20px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+.home-slider .slider-item .offer-card:after {
+    position: absolute;
+    content: "";
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    border: 1px solid #f96790;
+    left: 5px;
+    top: 5px;
+    border-radius: 50%;
+}
+
+.home-slider .slider-item .offer-card span {
+    font-size: 18px;
+    text-transform: lowercase;
+    position: relative;
+    top: 50px;
+    opacity: 0;
+}
+
+.home-slider .slider-item .offer-card h2 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+.home-slider .slider-item .offer-card p {
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 14px;
+}
+.home-slider .owl-item.active .slider-item .offer-card {
+    opacity: 1;
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: all 0.5s ease 1s;
+    -webkit-transition: all 0.5s ease 1s;
+    -o-transition: all 0.5s ease 1s;
+    transition: all 0.5s ease 1s;
+}
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+    color: #fff;
+}
+
+.btn.btn-primary:hover {
+    background: white;
+    border: 0;
+}
